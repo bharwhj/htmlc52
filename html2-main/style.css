@@ -1,0 +1,70 @@
+
+
+
+.intro {
+background-color: #ff8c00;
+display:flex ;
+justify-content: space-evenly;
+}
+
+.links {
+
+    display:flex ;
+    flex-direction: column;
+    justify-content: space-evenly;
+    }
+
+.MYGAMES{
+
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+
+
+
+}
+
+a:link{
+  
+    color:cadetblue
+
+}
+
+a:visited {
+
+color: darkmagenta;
+
+}
+
+.links
+{
+    margin-right: 20px;
+
+}
+
+.SELFDESIGNED
+{
+position: relative;
+
+}
+
+.SELFDESIGNED p
+{
+position: absolute;
+top: 50pt;
+left: 50pt;
+transform:translate(-50%,-50%) ;
+opacity:0 ;
+}
+.SELFDESIGNED:hover p
+{
+  opacity: 1 ;
+
+
+}
+
+.SELFDESIGNED:hover img
+{
+
+opacity: 0.33;
+}
